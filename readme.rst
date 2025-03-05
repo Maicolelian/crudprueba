@@ -1,5 +1,5 @@
 ###################
-CRUD CREAR EMPLEADOS
+CRUD DE EMPLEADOS
 ###################
 
 El proyecto consta de un crud en el cual se puede agregar o registrar empleados con 
