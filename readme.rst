@@ -1,14 +1,18 @@
 ###################
-What is CodeIgniter
+CRUD CREAR EMPLEADOS
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+El proyecto consta de un crud en el cual se puede agregar o registrar empleados con 
+algunos requerimientos, por ejemplo que el empleado sea mayor de edad. El sistema de utenticacion 
+consta con una pagina de inicio donde el usuario puede registrarse con el nombre, correo
+y contraseña, una vez el usuario este registrado puede inicar sesion, en el inicio de sesion
+hay unas validaciones donde todos los campos son requeridos y comprobacion de correo y 
+contraseña que sean correctos, si los datos son validos va a redirigir a la pagina de inicio.
+En el proyecto la pagina de inicio muestra un listado de los empleados registrados, en el boton de nuevo registro
+podemos ir al formulario para crear un nuevo empleado, una vez creado el empleado podemos encontrarlo 
+en el listado de la pagina de inicio, cada empleado tiene dos opciones: la primera para editar la informacion del
+empleado, y la segunda para eliminar el empleado. Si queremos eliminar el empleado nos va a pedir una confirmacion
+para continuar con el proceso. Ademas en la pagina de inicio esta el boton de cierre de sesion.
 
 *******************
 Release Information
